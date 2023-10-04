@@ -1,4 +1,4 @@
-def generate_magic_square():
+'''def generate_magic_square():
     # Initialize a 3x3 matrix with zeros
     magic_square = [[0, 0, 0], [0, 0, 0], [0, 0, 0]]
     
@@ -56,4 +56,17 @@ print_matrix(magic_square)
 if check_magic_square(magic_square):
     print("It's a Magic Square!")
 else:
-    print("Not a Magic Square.")
+    print("Not a Magic Square.")'''
+
+
+
+
+def list(n):
+    sum=0
+    for i in range(n):
+        sum+=i
+    return sum
+
+
+n=int(input())
+print(list(n))
