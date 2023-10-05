@@ -23,8 +23,8 @@ def sum(nums, target_sum):
     return list(dp[target_sum])
 
 numbers = [6, 8, 9, 5, 4, 3, 26, 2]
-target = 28
+target = 13
 result = sum(numbers, target)
 
 for subset in result:
-    print(subset,"= 28")
+    print(subset,"= 13")
